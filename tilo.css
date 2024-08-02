@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Group header {
+    color: white;
+    text-align: left;
+    font-size: 14px; /*tama;o de letras en pixeles*/
+    font-family: cursive; /*tipo de fuentes*/
+    font-weight: bold; /*Peso de las fuentes*/
+    font-stretch: expanded;
+}
+
+.menu {
+    text-align: left;
+    padding: 2.5px 2px;
+    background: rgba(192, 199, 192, 0.671);
+    border-radius: 13px;
+    border: 1px solid rgb(109, 29, 85);
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    font: lighter 18px cursive;
+    padding: 7px;
+}
+
+hgroup {
+    font-size: 18px; /*tama;o de letras en pixeles*/
+    font-family: cursive; /*tipo de fuentes*/
+    font-weight: bold; /*Peso de las fuentes*/
+}
+
+h4 {
+    font: lighter 17px cursive;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.Group {
+    margin: auto;
+    width: 960px;
+    border: 2px solid rgb(109, 29, 85);
+    border-radius: 16px;
+    background: rgba(94, 33, 76, 0.689);
+}
+
+.header {
+    padding: 8px;
+    background: rgba(109, 29, 85);
+    border-radius: 12px;
+    border: 0.5px solid rgb(109, 29, 85);
+}
+
+.seccion {
+    color: white;
+    font: lighter 15px cursive;
+    margin: 10px 15px;
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+.colm {
+    width: 33%;
+    float: left;
+    margin: 10px 15px;
+}
+
+.pie {
+    clear: both;
+    color: white;
+    padding: 10px;
+    background: rgba(109, 29, 85);
+    border-radius: 13px;
+    border: 1px solid rgb(109, 29, 85);
+}
+
+article {
+    background: rgba(109, 29, 85);
+    border: 1.5px solid rgb(109, 29, 85);
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+article footer {
+    text-align: right;
+    margin: 14px;
+}
+
+time {
+    color: rgba(255, 255, 255, 0.436);
+}
+
+img {
+    width: 155px;
+    margin: 5px auto;
+}
+
+.colm blockquote {
+    color: white;
+    background: rgb(109, 29, 85);
+    border: 1.5px solid rgb(109, 29, 85);
+    border-radius: 6px;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+body {
+    background: rgba(8, 8, 8, 0.954);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 255); /* Cambia el color a azul cuando el mouse esté encima */
+}
+
+a:active {
+    color: red;
+}
+
+  /* Media queries para adaptar el diseño a diferentes tamaños de pantalla */
+
+  /* Pantallas pequeñas (móviles) */
+@media only screen and (max-width: 768px) {
+    .Group {
+    width: 100%;
+    }
+    .seccion {
+    width: 100%;
+    float: none;
+    }
+    .colm {
+    width: 100%;
+    float: none;
+    }
+    article {
+    margin-bottom: 10px;
+    }
+}
+
+  /* Pantallas medianas (tabletas) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Group {
+    width: 90%;
+    }
+    .seccion {
+    width: 60%;
+    float: left;
+    }
+    .colm {
+    width: 30%;
+    float: left;
+    }
+    article {
+    margin-bottom: 15px;
+    }
+}
